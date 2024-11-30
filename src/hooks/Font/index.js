@@ -1,6 +1,6 @@
 import { useFonts } from "expo-font";
 import { createContext, useContext } from "react";
-import { ActivityIndicator, Text } from "react-native";
+import { ActivityIndicator, Text, View } from "react-native";
 
 const FontContext = createContext({});
 export function FontProvider({ children }) {

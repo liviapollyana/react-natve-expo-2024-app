@@ -1,5 +1,10 @@
+import { AuthProvider } from "./Auth";
 import { FontProvider } from "./Font";
 
 export function AppProvider({ children }) {
-    return <FontProvider>{children}</FontProvider>;
+    return (
+        <FontProvider>
+            <AuthProvider>{children}</AuthProvider>
+        </FontProvider>
+    );
 }
