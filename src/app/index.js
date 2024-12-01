@@ -8,10 +8,10 @@ export default function App() {
 
   const handleEntrarSuper = async () => {
     try {
-      await signIn({ email: "super@email.com", password: "Super123!" })
+      await signIn({ email: "super@email.com", password: "A123456a!" });
       router.replace("/");
     } catch (error) {
-      console.log(e)
+      console.log(error);
     }
   }
   return (

@@ -8,14 +8,14 @@ export function FontProvider({ children }) {
         regular: require("../../assets/fonts/Montserrat-Regular.ttf"),
         bold: require("../../assets/fonts/Montserrat-Bold.ttf"),
         black: require("../../assets/fonts/Montserrat-Black.ttf"),
-        semibold: require("../../assets/fonts/Montserrat-Semibold.ttf"),
+        semibold: require("../../assets/fonts/Montserrat-SemiBold.ttf"),
         light: require("../../assets/fonts/Montserrat-Light.ttf"),
         medium: require("../../assets/fonts/Montserrat-Medium.ttf"),
         thin: require("../../assets/fonts/Montserrat-Thin.ttf"),
         extralight: require("../../assets/fonts/Montserrat-ExtraLight.ttf"),
         italic: require("../../assets/fonts/Montserrat-Italic.ttf"),
-        bolditalic: require("../../assets/fonts/Montserrat-BoldItalic"),
-        blackitalic: require("../../assets/fonts/Montserrat-BlackItalic"),
+        bolditalic: require("../../assets/fonts/Montserrat-BoldItalic.ttf"),
+        blackitalic: require("../../assets/fonts/Montserrat-BlackItalic.ttf"),
     });
 
     if (!loaded && !error) {
