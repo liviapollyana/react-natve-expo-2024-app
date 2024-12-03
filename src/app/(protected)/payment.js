@@ -1,9 +1,9 @@
 import { Text, View } from "react-native";
 
 export default function Payments() {
-    return (
-        <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center'}}>
-            <Text>Pagamentos</Text>
-        </View>
-    );
+  return (
+    <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
+      <Text>Pagamentos</Text>
+    </View>
+  );
 }

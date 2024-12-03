@@ -3,9 +3,9 @@ import { Button, Text, View } from "react-native";
 
 export default function About() {
     return (
-        <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center'}}>
+        <View style={{ flex: 1, justifyContent: "center", alignItems: "center"}}>
             <Text>Sobre</Text>
-            <Button title="Voltar" onPress={() => {router.replace("/")}} />
+            <Button title="voltar" onPress={() => {router.replace("/")}} />
         </View>
     );
 }
